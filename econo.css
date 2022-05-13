@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 100vw;
+  justify-content: center;
+  background: black;
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  
+  .button {
+    min-width: 100px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background:#0b8fb2 ;
+  background: linear-gradient(90deg, #0b8fb2 0%, #0b8fb2 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 20px #0b8fb2;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    left: 21vw;
+    text-shadow: 0 0 8px black;
+    }
+  
+  .button::before {
+  content: '';
+    border-radius: 1000px;
+    width: 150px;
+    height: 80px;
+    border: 6px solid #0b8fb2;
+    box-shadow: 0 0 60px #0b8fb2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+    
+  }
+  
+  .button:hover, .button:focus {
+    color: white;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  
+  
+  .button2 {
+    min-width: 100px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: #0b8fb2;
+  background: linear-gradient(90deg, #0b8fb2 0%, #0b8fb2 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 20px #0b8fb2;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    left: 7vw;
+    text-shadow: 0 0 8px black;
+    }
+  
+  .button2::before {
+  content: '';
+    border-radius: 1000px;
+    width: 170px;
+    height: 80px;
+    border: 6px solid #0b8fb2;
+    box-shadow: 0 0 60px #0b8fb2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+    
+  }
+  
+  .button2:hover, .button2:focus {
+    color: white;
+    transform: translateY(-6px);
+  }
+  
+  button2:hover::before, button2:focus::before {
+    opacity: 1;
+  }
+  
+  
+  
+  .button3 {
+    min-width: 100px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: #0b8fb2;
+  background: linear-gradient(90deg, #0b8fb2 0%, #0b8fb2 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 20px #0b8fb2;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    text-shadow: 0 0 8px black;
+  right: 7vw;
+    }
+  
+  .button3::before {
+  content: '';
+    border-radius: 1000px;
+    width: 170px;
+    height: 80px;
+    border: 6px solid #0b8fb2;
+    box-shadow: 0 0 60px #0b8fb2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+    
+  }
+  
+  .button3:hover, .button3:focus {
+    color: white;
+    transform: translateY(-6px);
+  }
+  
+  button3:hover::before, button3:focus::before {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  .button4 {
+    min-width: 100px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: #0b8fb2;
+  background: linear-gradient(90deg, #0b8fb2 0%, #0b8fb2 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 20px #0b8fb2;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    text-shadow: 0 0 8px black;
+    right: 21vw;
+    }
+  
+  .button4::before {
+  content: '';
+    border-radius: 1000px;
+    width: 135px;
+    height: 80px;
+    border: 6px solid #0b8fb2;
+    box-shadow: 0 0 60px #0b8fb2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+    
+  }
+  
+  .button4:hover, .button4:focus {
+    color: white;
+    transform: translateY(-6px);
+  }
+  
+  button4:hover::before, button4:focus::before {
+    opacity: 1;
+  }
+  
+ 
+    
+
+    .anim {
+        position: absolute;
+        height: 1vh;
+        width: 2vw;
+        top: 4vh;
+       left: 50vw;
+      
+        background: #0b8fb2;
+        animation-duration: 4.5s;
+        animation-name: glissement;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes glissement {
+  
+        from {
+        width: 2vw;
+        left: 50vw;
+        }
+        
+        to {
+        width: 48vw;
+        left: 26vw;
+        
+        }
+        }
+
+
+
+.fond {
+
+width: 100%;
+height: 60vh;
+z-index: -1;
+background: url(./croissance-valeur.png);
+
+}
+
+
+.fond h1 {
+
+    transform: translate(70%,50%);
+    font-size: 7em;
+    position: absolute;
+    z-index: -1;
+
+
+
+}
+
+.fond h1:nth-child(1) {
+
+    color: transparent;
+  -webkit-text-stroke: 2px white;
+  z-index: -1;
+   
+  
+  }
+  
+  .fond h1:nth-child(2) {
+  
+    color: white;
+  animation-duration: 4.5s;
+  animation-name: vague;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+  }
+  
+  @keyframes vague {
+    
+   0%,100% { 
+    clip-path: polygon(1% 41%, 13% 50%, 21% 59%, 29% 64%, 39% 66%, 50% 66%, 60% 63%, 69% 59%, 79% 58%, 87% 59%, 100% 63%, 100% 100%, 0 100%);}
+  
+   50% { clip-path: polygon(0 61%, 7% 57%, 15% 55%, 21% 54%, 26% 51%, 36% 54%, 43% 57%, 51% 60%, 61% 54%, 73% 50%, 100% 45%, 100% 100%, 0 100%);}
+  }
+
+.eco {
+
+width: 43vw;
+height: 30vh;
+background: #313133;
+border-radius: 10px 10px 10px 10px;
+position: absolute;
+top: 90%;
+left: 5vw;
+}
+
+
+
+.eco2 {
+
+    width: 43vw;
+    height: 30vh;
+    background: linear-gradient(90deg,#313133 5%,#03033e 30%,#0b3179,#0b8fb2);
+    border-radius: 10px 10px 10px 10px;
+border: none;
+position: absolute;
+top: 90%;
+left: 5vw;
+transition: all 3s;
+opacity: 0;
+text-align: right;
+color: #adabab;
+	font-family: Coiny;
+  text-shadow: 0 0 8px black;
+    
+    }
+    .eco2 ul {
+        font-size: 1.5em;
+        list-style-type: none;
+        line-height: 5vh;
+    
+      }
+      .eco2:hover, .eco2:focus {
+    
+        width: 85vw;
+       opacity: 1;
+
+      }
+    .text {
+
+position: absolute;
+top: 100%;
+font-size: 2em;
+text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    color: #adabab;
+    font-family: Coiny;
+    text-shadow: 0 0 8px black;
+    left: 5vw;
+   
+
+
+    }
+
+    .clic {
+
+color: #adabab;
+ font-family: Coiny;
+text-shadow: 0 0 8px black;
+font-size: small;
+position: absolute;
+top: 110%;
+left: 22%;
+
+    }
