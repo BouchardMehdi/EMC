@@ -269,8 +269,8 @@ background: url(./croissance-valeur.png) center/cover no-repeat ;
     font-size: 7em;
     position: absolute;
     z-index: -1;
-left: 100vw;
-bottom: 35vh;
+left: 50vw;
+bottom: 45vh;
 
 }
 
