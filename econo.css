@@ -265,7 +265,7 @@ background: url(./croissance-valeur.png) center/cover no-repeat;
 
 .fond h1 {
 
-    transform: translate(100%, 50%);
+    transform: translate(90%, 50%);
     font-size: 7em;
     position: absolute;
     z-index: -1;
