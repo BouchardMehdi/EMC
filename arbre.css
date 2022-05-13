@@ -1,0 +1,68 @@
+body {
+
+    animation-duration: 2s;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes change {
+    
+0% {background: yellowgreen;}
+10% {background: red;}
+20% {background: salmon;}
+30% {background: blue;}
+40% {background: green;}
+50% {background: black;}
+60% {background: pink;}
+70% {background: cyan;}
+80% {background: purple;}
+90% {background: brown;}
+100% {background: gray;}
+
+}
+
+
+
+.ba {
+
+    width: 350px;
+    height: 500px;
+    background: url(file:///C:/Users/bouch/OneDrive/Documents/site/Parti%20Politique/fran%C3%A7ois.jpg) center/cover;
+position: relative;
+left: 500px;
+top: 20px;
+
+}
+
+.acc {
+
+border: none;
+width: 150px;
+height: 100px;
+background: red;
+position: relative;
+left: 600px;
+animation-duration: 2s;
+animation-delay: 1.5s;
+animation-name: change;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+.text {
+
+font-family: 'Nunito', sans-serif;
+font-size: 3em;
+color: white;
+text-align: center;
+text-shadow: 0 0 15px white;
+position: absolute;
+left: 21vw;
+top: 100%;
+
+
+}
+
